@@ -1,4 +1,6 @@
-# This a little function I put together and have been using to check image uniqueness in my image bots.  It creates MD5 hashes and stores them in a text file. Then it memory maps the text file for use in checking image uniqueness.
+# A function I use to check image uniqueness in my image bots.  
+# It generates MD5 hashes and stores them in a text file. 
+# Then it memory maps the text file for use in checking image uniqueness.
 
 import mmap
 import hashlib
