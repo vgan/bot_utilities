@@ -30,6 +30,5 @@ def isItSnowflake(image,imagehashesfile):
 # Usage: 
 # just pass in the image and hash file locations and it will return True or False
 
-snowflake = isItSnowflake(image,imagehashesfile) 
-
-print snowflake
+# snowflake = isItSnowflake(image,imagehashesfile) 
+# print snowflake
