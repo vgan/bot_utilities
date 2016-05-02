@@ -12,8 +12,9 @@ Usage:
 ```
 from isItSnowflake import isItSnowflake
 
-image = "/home/yourbot/probablyacat.gif"
-imagehashesfile = "/home/yourbot/imagehasesfile.txt"
+basepath = "/home/yourbot/" # don't forget trailing slash
+image = basepath + "probablyacat.gif"
+imagehashesfile = basepath + "imagehasesfile.txt"
 
 snowflake = isItSnowflake(image,imagehashesfile)
 if snowflake == "True":
