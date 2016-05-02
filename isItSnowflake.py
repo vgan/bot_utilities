@@ -4,10 +4,7 @@
 
 import mmap
 import hashlib
-
-imagehashesfile = "image_hashes.txt"
-
-image = "probablyacatpicture.jpg"
+import os
 
 def isItSnowflake(image,imagehashesfile):
         if os.path.isfile(image):
