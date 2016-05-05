@@ -39,7 +39,7 @@ okimages = ["png","jpeg","gif","tiff"] # other possible types: rgb, pbm, ppm, ra
 
   Pass in `image` and `okimages` and it will return `True` or `False`
 ```
-valid = validateImageHeader(image, okimages)`
+valid = validateImageHeader(image, okimages)
 if valid == "True":
     # Looks good, do something here
 elif valid == "False":
