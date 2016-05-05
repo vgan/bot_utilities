@@ -10,7 +10,7 @@ Usage:
 
 
 ```
-from isItSnowflake import isItSnowflake
+from isitsnowflake import isItSnowflake
 
 basepath = "/home/yourbot/" # don't forget trailing slash
 image = basepath + "probablyacat.gif"
@@ -22,3 +22,25 @@ if snowflake == "True":
 else:
     print "We've seen this image before."
 ```
+
+##validateImageHeader
+Uses imghdr library to validate image headers.
+
+
+Usage:
+
+    Define the image path and types you're ok with.
+```
+from validateimageheader import validateImageHeader
+basepath = "/home/yourbot/"
+image = basepath + "default.png"
+okimages = ["png","jpeg","gif","tiff"] # other possible types: rgb, pbm, ppm, rast, xbm, bmp
+```
+
+  Pass in `image` and `okimages` and it will return `True` or `False`
+```
+valid = validateImageHeader(image, okimages)`
+if valid == "True":
+    # Looks good, do something here
+elif valid == "False":
+    # Don't touch it, its evil!
