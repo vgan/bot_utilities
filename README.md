@@ -1,5 +1,5 @@
 #bot_utilities
-A place to store tools which I tend to re-use in my bots.
+Tools which I use in my bots.
 
 ##isItSnowflake  ?
 Used for checking uniqueness of image files.  Helpful for image based bots.
