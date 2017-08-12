@@ -1,7 +1,7 @@
-#bot_utilities
+# bot_utilities
 Tools which I use in my bots.
 
-##isItSnowflake  ?
+## isItSnowflake  ?
 Used for checking uniqueness of image files.  Helpful for image based bots.
 
 Usage:
@@ -23,8 +23,8 @@ else:
     print "We've seen this image before."
 ```
 
-##validateImageHeader
-Uses imghdr library to validate image headers.
+## validateImageHeader
+Validate image headers to make sure they aren't malicious or just incorrect.
 
 
 Usage:
