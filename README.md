@@ -6,7 +6,7 @@ Used for checking uniqueness of image files.  Helpful for image based bots.
 
 Usage:
 
-  Pass in the image and hash file paths and it will check against a list of previous image hashes and return True or False
+ - Pass in the image and hash file paths and it will check against a list of previous image hashes and return True or False
 
 
 ```
@@ -29,7 +29,7 @@ Validate image headers to make sure they aren't malicious or just incorrect.
 
 Usage:
 
-    Define the image path and types you're ok with.
+  -  Define the image path and types you're ok with.
 ```
 from validateimageheader import validateImageHeader
 basepath = "/home/yourbot/"
