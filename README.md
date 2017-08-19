@@ -1,5 +1,5 @@
 # bot_utilities
-Tools which I use in my bots.
+Little tools I've wrtten for my generative art bots.
 
 ## isItSnowflake  ?
 Used for checking uniqueness of image files.  Helpful for image based bots.
